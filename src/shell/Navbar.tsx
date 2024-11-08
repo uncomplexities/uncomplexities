@@ -18,7 +18,7 @@ export default function AppShellNavbar() {
 
 	return (
 		<AppShell.Navbar p={screen}>
-			<Stack gap={screen} p={screen} className="overflow-y-scroll">
+			<Stack gap={screen} p={screen} className="overflow-y-auto">
 				<NavigationLink
 					label="Home"
 					leftSection={<IconHome stroke={2} />}
