@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "dev-client",
+      "type": "npm",
+      "script": "dev",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "dev"
+      }
+    },
+    {
+      "label": "dev-start",
+      "type": "shell",
+      "dependsOrder": "parallel",
+      "dependsOn": ["dev-client"],
+      "problemMatcher": []
+    }
+  ]
+}

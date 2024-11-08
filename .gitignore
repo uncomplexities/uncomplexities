@@ -1,0 +1,14 @@
+# Files
+**/.DS_Store
+**/*.log*
+**/.env*
+**/*.private-key.pem
+
+# Dependencies
+**/node_modules/
+
+# Builds
+**/dist/
+
+# Temporary
+**/tmp/

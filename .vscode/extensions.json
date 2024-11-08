@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "biomejs.biome",
+    "dbaeumer.vscode-eslint",
+    "stylelint.vscode-stylelint",
+    "esbenp.prettier-vscode",
+    "vunguyentuan.vscode-postcss",
+    "vunguyentuan.vscode-css-variables",
+    "bradlc.vscode-tailwindcss",
+    "Supermaven.supermaven",
+    "teabyii.ayu"
+  ]
+}

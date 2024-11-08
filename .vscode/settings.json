@@ -1,0 +1,76 @@
+{
+  /* https://fonts.google.com/specimen/JetBrains+Mono */
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.cursorBlinking": "solid",
+  "editor.minimap.renderCharacters": false,
+  "editor.fontFamily": "'JetBrains Mono'",
+  "terminal.integrated.fontFamily": "'JetBrains Mono'",
+  "explorer.compactFolders": false,
+  "workbench.editor.wrapTabs": true,
+  "workbench.colorTheme": "Ayu Dark Bordered",
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.excludeDirty": true,
+  "workbench.editor.limit.value": 7,
+
+  /* biomejs.biome, dbaeumer.vscode-eslint, stylelint.vscode-stylelint */
+  "editor.codeActionsOnSave": {
+    "source.fixAll.biome": "always",
+    "source.fixAll.eslint": "always",
+    "source.fixAll.stylelint": "always",
+    "source.organizeImports.biome": "always",
+    "quickfix.biome": "always"
+  },
+  "editor.defaultFormatter": "biomejs.biome",
+
+  /* esbenp.prettier-vscode */
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "[tailwindcss][css][postcss][json][jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  /* stylelint.vscode-stylelint */
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "stylelint.validate": ["tailwindcss", "css", "postcss"],
+
+  /* vunguyentuan.vscode-postcss */
+  "postcss.validate": false,
+
+  /* vunguyentuan.vscode-css-variables */
+  "cssVariables.lookupFiles": [
+    "**/*.css",
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.less",
+
+    /* Mantine */
+    "node_modules/@mantine/core/styles.css"
+  ],
+  "cssVariables.blacklistFolders": [
+    "**/.git",
+    "**/.svn",
+    "**/.hg",
+    "**/CVS",
+    "**/.DS_Store",
+    "**/node_modules",
+    "**/bower_components",
+    "**/tmp",
+    "**/dist",
+    "**/tests",
+
+    /* Docker */
+    "**/data"
+  ],
+
+  /* bradlc.vscode-tailwindcss */
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  }
+}
