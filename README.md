@@ -1,23 +1,9 @@
-# Rsbuild Project
+# Uncomplexities, Inc.
 
-## Setup
-
-Install the dependencies:
+## Usage
 
 ```bash
 npm install
-```
-
-## Get Started
-
-Start the dev server:
-
-```bash
 npm run dev
-```
-
-Build the app for production:
-
-```bash
 npm run build
 ```
